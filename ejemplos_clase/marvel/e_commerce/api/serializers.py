@@ -3,7 +3,6 @@
 from e_commerce.models import Comic,WishList
 from django.contrib.auth.models import User
 
-# Luego importamos todos los serializadores de django rest framework.
 from rest_framework import serializers
 
 class ComicSerializer(serializers.ModelSerializer):
