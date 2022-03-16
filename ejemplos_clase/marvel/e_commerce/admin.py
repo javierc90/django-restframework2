@@ -3,8 +3,6 @@ from django.contrib import admin
 # NOTE: Tenemos que importar los modelos con los que vamos a trabajar:
 from e_commerce.models import *
 
-# Register your models here.
-
 # NOTE: Aquí personalizamos los campos en el Django Admin.
 
 @admin.register(Comic)
